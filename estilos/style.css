@@ -30,10 +30,13 @@ section#login{
     height: 550px;
     border-radius: 20px;
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.993);
+
+    transition: width .3s, height .3s; /*para ele nao ter modo sco de cortagem na animação ele vai devagar*/
+    transition-timing-function: ease;
 }
 section#login>div#imagem{
     display: block;
-    background:#5f2c82  url(../imagens/logo\ nova.png) no-repeat;
+    background:#5f2c82  url(../imagens/pexels-pixabay-268883.jpg) no-repeat;
     background-size: cover;
     background-position: 0px ;
     height: 232px;
