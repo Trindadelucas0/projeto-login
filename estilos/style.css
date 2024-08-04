@@ -60,8 +60,8 @@ div#formulario>p{
 }
 
 form>div.campo{
-  background-color: #5f2c82;
-  border:1px solid #5f2c82;
+  background-color: white;
+  border:1px solid white;
   width: 100%;
   display: block;
   height: 40px;

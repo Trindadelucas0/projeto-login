@@ -19,6 +19,17 @@
     div#formulario>p{
         font-size: 1em;
       }
+      form>div.campo{
+        background-color: #5f2c82;
+        border:1px solid #5f2c82;
+        width: 100%;
+        display: block;
+        height: 40px;
+        border-radius: 8px;
+        margin: 5px 0px;
+      
+      
+      }
 }
 
 @media screen and (min-width:992px) {
@@ -58,5 +69,16 @@
         border-radius: 8px;
         padding: 1px;
         margin: 10px;
+      }
+      form>div.campo{
+        background-color: #5f2c82;
+        border:1px solid #5f2c82;
+        width: 100%;
+        display: block;
+        height: 40px;
+        border-radius: 8px;
+        margin: 5px 0px;
+      
+      
       }
 }
