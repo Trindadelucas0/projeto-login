@@ -5,7 +5,7 @@
     }
     section#login{
         width: 80%;/*vw seria tela*/
-        height: 290px;
+        height: 295px;
     }
     section#login>div#imagem{/*colocar as div uma do lado da outra usamos o float*/
         float: left;
