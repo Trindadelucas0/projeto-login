@@ -5,6 +5,7 @@
     }
     section#login{
         width: 80%;/*vw seria tela*/
+        height: 290px;
     }
     section#login>div#imagem{/*colocar as div uma do lado da outra usamos o float*/
         float: left;
@@ -27,6 +28,7 @@
 
     section#login{
         width: 940px;
+        height: 350px;
 
     }
     section#login>div#imagem{
@@ -43,5 +45,18 @@
     }
     div#formulario>p{
         font-size: 1.2em;
+        margin:10px 0px ;
+      }
+      div.campo>input{
+        background-color:#93eeeb ;
+        font-size: 1em;
+        width:calc(100% -42px) ;
+        width: 377px;
+        height: 100%;
+        transform:translateY(-12px);
+        border: 0px;
+        border-radius: 8px;
+        padding: 1px;
+        margin: 10px;
       }
 }

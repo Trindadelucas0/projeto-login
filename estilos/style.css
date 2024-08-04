@@ -27,7 +27,7 @@ section#login{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    
     overflow: hidden;
 
     background-color: white;
@@ -38,6 +38,7 @@ section#login{
 
     transition: width .3s, height .3s; /*para ele nao ter modo sco de cortagem na animação ele vai devagar*/
     transition-timing-function: ease;
+    transform: translate(-50%,-50%);
 }
 section#login>div#imagem{
     display: block;
@@ -60,11 +61,11 @@ div#formulario>p{
 
 form>div.campo{
   background-color: #5f2c82;
-  
+  border:1px solid #5f2c82;
   width: 100%;
   display: block;
   height: 40px;
-  border-radius: 5px;
+  border-radius: 8px;
   margin: 5px 0px;
 
 
@@ -73,7 +74,29 @@ form>div.campo{
 div.campo>label{
 display: none;
 }
+div.campo>i{
+  color: white;
+  
+  font-size: 2em;
+  width: 40px;
+  padding: 5px;
+}
+div.campo>input{
+  background-color:#93eeeb ;
+  font-size: 0.9em;
+  width:calc(100% -42px) ;
+  height: 100%;
+ 
+  border: 0px;
+  border-radius: 8px;
+  padding: 1px;
 
+  transform:translateY(-12px);
+}
+div.campo>input:focus-within{
+  background-color: white;
+
+}
 form>input[type=submit]{
   display: block;
   font-size: 1em;
