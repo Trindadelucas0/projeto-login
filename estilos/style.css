@@ -84,14 +84,14 @@ div.campo>i{
 div.campo>input{
   background-color:#93eeeb ;
   font-size: 0.9em;
-  width:100px 50px;
+  width:100px 40px;
   height: 100%;
  
   border: 0px;
   border-radius: 8px;
   padding: 1px;
 
-  transform:translateY(-15px);
+  transform:translateY(-4px);
 }
 div.campo>input:focus-within{
   background-color: white;
