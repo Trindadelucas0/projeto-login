@@ -32,7 +32,7 @@ section#login{
 
     background-color: white;
     width: 250px;
-    height: 600px;
+    height: 570px;
     border-radius: 20px;
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.993);
 
@@ -62,7 +62,7 @@ div#formulario>p{
 form>div.campo{
   background-color: #5f2c82;
   border:1px solid #5f2c82;
-  width: 102%;
+  width: 100%;
   display: block;
   height: 40px;
   border-radius: 8px;
